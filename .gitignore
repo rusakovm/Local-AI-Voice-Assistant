@@ -1,0 +1,20 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Local AI models
+*.onnx
+*.gguf
+*.bin
+vosk-model-*/
+
+# Generated audio
+out/
+*.wav
+
+# Local configuration
+.env
+appsettings.Local.json
